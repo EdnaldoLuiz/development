@@ -1,0 +1,64 @@
+* {
+  border: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:root {
+  --font-base: "Bai Jamjuree";
+  --text-gradient: linear-gradient(to right, rgb(109, 49, 179), rgb(61, 116, 236), rgb(30, 202, 245));
+  --border-blue: 0.1em solid rgb(8, 219, 247);
+  --bg-gradient-right: linear-gradient(to right, rgb(0, 0, 0), rgb(22, 10, 58), rgb(12, 38, 85));
+  --bg-default: #020013;
+  --text-cyan: rgb(18, 164, 201);
+  --transition-main: all .4s ease-in-out;
+}
+
+body {
+  background: var(--bg-default);
+  font-family: var(--font-base);
+}
+
+.gradient {
+  background-image: var(--text-gradient);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  /* width: 18rem; */
+  width: 20%;
+  border: var(--border-blue);
+  background: var(--bg-default);
+}
+
+.github-size {
+  font-size: 41px;
+  border: 2px solid #0099ff;
+  border-radius: 50%;
+}
+
+.card-link {
+  text-decoration: none;
+  
+  background: var(--bg-default);
+    color: var(--text-cyan);
+    
+}
+
+.github-size:hover {
+  
+    color: black;
+    background: var(--text-gradient);
+}
+
+@media (max-width: 767px) {
+  .glow i img {
+    width: 10%;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap%27');
+

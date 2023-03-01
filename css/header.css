@@ -1,0 +1,46 @@
+@import url(style.css);
+
+.header__nav__img {
+  width: 20%;
+}
+
+#nav-icon {
+  color: var(--text-cyan);
+}
+
+.navbar-toggler:focus {
+  outline: 1px;
+  box-shadow: none;
+}
+
+.btn-contratar {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 10px 27px;
+  transition: var(--transition-main);
+  background-color: #04021d;
+  border: var(--border-blue);
+  color: var(--text-cyan);
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-contratar:hover {
+  border: 0.1em solid black;
+  color: black;
+  background: var(--text-gradient);
+}
+
+#nav-color {
+  background: black;
+  background: var(--bg-gradient-right);
+  border-bottom: var(--border-blue);
+}
+
+@media (max-width: 840px) {
+  .header__nav__img {
+    width: 10em;
+    height: 60px;
+  }
+}

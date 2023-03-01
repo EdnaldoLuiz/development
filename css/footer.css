@@ -1,0 +1,23 @@
+@import url(style.css);
+
+#footer {
+  margin-top: 10%;
+  background-size: cover;
+  border-top: var(--border-blue);
+  background: black;
+}
+
+.glow i img {
+  width: 5%;
+}
+
+.glow:hover {
+  background: #0099ff28;
+  box-shadow: 0px 0 50px 0px #0099ff;
+  border-radius: 100px;
+  transition: var(--transition-main);
+}
+
+#copyright {
+  background: var(--bg-gradient-right);
+}

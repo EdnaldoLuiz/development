@@ -1,0 +1,64 @@
+@import url(style.css);
+
+.labels {
+  font-size: 1.3em;
+  text-align: left;
+  display: block;
+  color: #fff;
+}
+
+.form-control {
+  background: #03243a;
+  border: var(--border-blue);
+  color: #ffffff;
+}
+
+.form-control:active {
+  background: #03243a;
+}
+
+.contato {
+  margin: 10% 30% 0 30%;
+  text-align: center;
+  padding: 3%;
+  border: var(--border-blue);
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(22, 10, 58));
+}
+
+input:invalid, textarea:invalid {
+  border: red;
+  box-shadow: 0 0 3px red;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+input:valid, textarea:valid {
+  border: var(--border-blue);
+}
+
+.contato button {
+  background: var(--bg-default);
+  border: var(--border-blue);
+  color: var(--text-cyan);
+}
+
+.contato button:hover {
+  border: 0.1em solid black;
+  color: black;
+  background: var(--text-gradient);
+}
+
+@media (max-width: 900px) {
+  .contato {
+    margin: 0 20% 0 20%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contato {
+    margin: 0 5% 0 5%;
+  }
+}
