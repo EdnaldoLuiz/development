@@ -8,6 +8,7 @@
   --font-base: "Bai Jamjuree";
   --text-gradient: linear-gradient(to right, rgb(109, 49, 179), rgb(61, 116, 236), rgb(30, 202, 245));
   --border-blue: 0.1em solid rgb(8, 219, 247);
+  --border-gd: 0.1em solid linear-gradient(to right, rgb(0, 0, 0), rgb(22, 10, 58), rgb(12, 38, 85));
   --bg-gradient-right: linear-gradient(to right, rgb(0, 0, 0), rgb(22, 10, 58), rgb(12, 38, 85));
   --bg-default: #020013;
   --text-cyan: rgb(18, 164, 201);

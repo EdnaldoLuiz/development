@@ -23,12 +23,12 @@
   padding: 3%;
   border: var(--border-blue);
   border-radius: 20px;
-  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(22, 10, 58));
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(22, 10, 58), rgb(12, 38, 85));
 }
 
 input:invalid, textarea:invalid {
-  border: red;
-  box-shadow: 0 0 3px red;
+  /* border: red;
+  box-shadow: 0 0 3px red; */
 }
 
 input:focus, textarea:focus {
