@@ -8,7 +8,7 @@
 }
 
 .form-control {
-  background: #03243a;
+  background: #021522;
   border: var(--border-blue);
   color: #ffffff;
 }
@@ -26,17 +26,52 @@
   background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(22, 10, 58), rgb(12, 38, 85));
 }
 
-input:invalid, textarea:invalid {
+input:invalid,
+textarea:invalid {
   /* border: red;
   box-shadow: 0 0 3px red; */
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
 }
 
-input:valid, textarea:valid {
+input:valid,
+textarea:valid {
   border: var(--border-blue);
+}
+
+#email-invalido {
+  position: relative;
+}
+
+/* '' */
+input:invalid + .verifica::before,
+textarea:invalid + .verifica::before {
+  content: '✖';
+  color: red;
+}
+
+input:valid + .verifica::before,
+textarea:valid + .verifica::before {
+  content: '✓';
+  color: rgb(0, 255, 0);
+}
+
+input + .verifica::before {
+  position: absolute;
+}
+
+textarea + .verifica::before {
+  position: absolute;
+
+}
+
+.verifica {
+  text-align: left;
+  justify-content: left;
+ 
 }
 
 .contato button {

@@ -1,0 +1,38 @@
+@import url(style.css);
+
+.card {
+  box-shadow: -1px 15px 30px -10px black;
+  width: 250px;
+  color: white;
+  background: var(--bg-gradient-right);
+}
+
+.card-img-top {
+  border-bottom: var(--border-blue);
+}
+
+.card-footer {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  padding: 0px !important;
+}
+
+.footer-blue {
+  background: var();
+}
+
+.footer-blue div {
+  width: 50%;
+}
+
+.card-footer div {
+  flex-grow: 1 !important;
+  border-right: var(--border-blue);
+  border-top: var(--border-blue);
+  padding: 10px 0;
+}
+
+.card-footer div:last-child {
+  border-right: none;
+}
