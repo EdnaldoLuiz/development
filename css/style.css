@@ -35,25 +35,29 @@ body {
   background: var(--bg-default);
 }
 
-.github-size {
-  font-size: 41px;
-  border: 2px solid #0099ff;
+.github-icon-size {
+  font-size: 40px;
+  padding: 2px;
   border-radius: 50%;
+  color: black;
+  background: var(--text-gradient);
+}
+
+.linkedin-icon-size {
+  font-size: 40px;
+
+  padding: 0 2px;
+  color: black;
+  background: var(--text-gradient);
 }
 
 .card-link {
   text-decoration: none;
-  
   background: var(--bg-default);
-    color: var(--text-cyan);
-    
+  color: var(--text-cyan);
 }
 
-.github-size:hover {
-  
-    color: black;
-    background: var(--text-gradient);
-}
+.github-size:hover {}
 
 @media (max-width: 767px) {
   .glow i img {
@@ -62,4 +66,3 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap%27');
-
