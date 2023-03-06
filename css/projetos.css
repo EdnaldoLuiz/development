@@ -31,7 +31,11 @@
 
 .card-img-top {
   border-bottom: var(--border-blue);
+  padding: 2%;
 }
+
+
+  
 
 .card-footer {
   justify-content: space-around;

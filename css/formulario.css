@@ -51,6 +51,8 @@ input:invalid + .verifica::before,
 textarea:invalid + .verifica::before {
   content: '✖';
   color: red;
+  /* margin-left: 15%; */
+  
 }
 
 input:valid + .verifica::before,
@@ -61,17 +63,18 @@ textarea:valid + .verifica::before {
 
 input + .verifica::before {
   position: absolute;
+  top: -30px;
+  left: 185px;
 }
 
 textarea + .verifica::before {
   position: absolute;
-
+  left: 185px;
+  top: -150px;
 }
 
 .verifica {
-  text-align: left;
-  justify-content: left;
- 
+  position: absolute;
 }
 
 .contato button {
