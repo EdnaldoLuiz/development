@@ -118,3 +118,17 @@ textarea + .verifica::before {
       top: -150px;
     }
 }
+
+@media (max-width: 480px) {
+  input+.verifica::before {
+    position: absolute;
+    top: -30px;
+    left: 140px;
+  }
+
+  textarea+.verifica::before {
+    position: absolute;
+    left: 140px;
+    top: -150px;
+  }
+}
