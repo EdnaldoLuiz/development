@@ -42,9 +42,9 @@ textarea:valid {
   border: var(--border-blue);
 }
 
-/* #email, #nome, #mensagem {
-
-} */
+#email, #nome, #mensagem {
+margin-bottom: 40px;
+}
 
 #email-invalido {
   position: relative;
@@ -67,14 +67,14 @@ textarea:valid + .verifica::before {
 
 input + .verifica::before {
   position: absolute;
-  top: -30px;
+  top: -70px;
   left: 185px;
 }
 
 textarea + .verifica::before {
   position: absolute;
   left: 185px;
-  top: -150px;
+  top: -190px;
 }
 
 .verifica {
