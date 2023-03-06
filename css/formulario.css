@@ -42,6 +42,10 @@ textarea:valid {
   border: var(--border-blue);
 }
 
+/* #email, #nome, #mensagem {
+
+} */
+
 #email-invalido {
   position: relative;
 }
@@ -91,12 +95,26 @@ textarea + .verifica::before {
 
 @media (max-width: 900px) {
   .contato {
-    margin: 10% 20% 0 20%;
+    margin: 10% 20% 20% 20%;
   }
 }
 
 @media (max-width: 600px) {
   .contato {
-    margin: 10% 5% 0 5%;
+    margin: 10% 5% 30% 5%;
   }
+}
+
+@media (max-width: 480px) {
+  input+.verifica::before {
+      position: absolute;
+      top: -30px;
+      left: 170px;
+    }
+  
+    textarea+.verifica::before {
+      position: absolute;
+      left: 170px;
+      top: -150px;
+    }
 }
