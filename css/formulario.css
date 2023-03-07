@@ -24,10 +24,9 @@
   border: 2px solid rgb(16, 1, 58);
   border-radius: 20px;
   background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(22, 10, 58), rgb(12, 38, 85));
-  background: url(./assets/imgs/bg_test.jpg);
+  background: url(../assets/imgs/bg_test.jpg);
   background-size: cover;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  background: url(../assets/imgs/u.png);
 }
 
 input:invalid,
