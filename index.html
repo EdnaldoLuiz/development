@@ -60,7 +60,7 @@
   <main>
 
     <section class="container-fluid home-section">
-      <section class="home diagonal">
+      <section class="home normal">
         <div class="max-width">
           <div class="home-conteudo">
 
@@ -131,44 +131,49 @@
       </section>
 
 
-
-
     </section>
 
     <section class="contato">
-      <form action="https://api.staticforms.xyz/submit" method="post">
-
-        <input type="hidden" name="acessKey" value="88ea59b8-df27-4b60-b7d7-f256157aeb78">
-        <input type="hidden" name="redirectTo" value="">
-
-        <div class="mb-3">
-          <label for="nome" class="form-label labels">Nome:</label>
-          <input required type="text" minlength="3" maxlength="25" class="form-control" name="name" id="nome"
-            aria-describedby="emailHelpId" placeholder="Seu nome">
-          <span class="verifica"></span>
+      <div class="normal">
+        <div>
+          <h1>OI</h1>
         </div>
+        <div class="contato_form">
+          <form action="https://api.staticforms.xyz/submit" method="post">
 
-        <div class="mb-3">
-          <label for="email" class="form-label labels">Email:</label>
-          <input required type="text" minlength="10" maxlength="50" class="form-control" name="email" id="email"
-            aria-describedby="emailHelpId" placeholder="abc@mail.com">
-          <span class="verifica"></span>
+            <input type="hidden" name="acessKey" value="88ea59b8-df27-4b60-b7d7-f256157aeb78">
+            <input type="hidden" name="redirectTo" value="">
+
+            <div class="mb-3">
+              <label for="nome" class="form-label labels">Nome:</label>
+              <input required type="text" minlength="3" maxlength="25" class="form-control" name="name" id="nome"
+                aria-describedby="emailHelpId" placeholder="Seu nome">
+              <span class="verifica"></span>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label labels">Email:</label>
+              <input required type="text" minlength="10" maxlength="50" class="form-control" name="email" id="email"
+                aria-describedby="emailHelpId" placeholder="abc@mail.com">
+              <span class="verifica"></span>
+            </div>
+
+            <div class="mb-3">
+              <label for="mensagem" class="form-label labels">Mensagem:</label>
+              <textarea required minlength="2" maxlength="200" class="form-control" name="message" id="mensagem"
+                rows="6" placeholder="escreva sua mensagem aqui!"></textarea>
+              <span class="verifica"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar <i class="fas fa-paper-plane"></i></button>
+          </form>
         </div>
-
-        <div class="mb-3">
-          <label for="mensagem" class="form-label labels">Mensagem:</label>
-          <textarea required minlength="2" maxlength="200" class="form-control" name="message" id="mensagem" rows="6"
-            placeholder="escreva sua mensagem aqui!"></textarea>
-          <span class="verifica"></span>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Enviar <i class="fas fa-paper-plane"></i></button>
-      </form>
+      </div>
     </section>
 
   </main>
 
-  <footer class=" text-center text-white" id="footer">
+  <footer class="text-center text-white" id="footer">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->

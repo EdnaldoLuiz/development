@@ -1,14 +1,16 @@
 @import url(style.css);
 
 #footer {
-  margin-top: 10%;
   background-size: cover;
   border-top: var(--border-blue);
   background: black;
+  position: relative;
+  z-index: 9999;
 }
 
 .glow i img {
   width: 5%;
+  
 }
 
 .glow:hover {

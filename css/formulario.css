@@ -1,5 +1,19 @@
 @import url(style.css);
 
+.contato {
+  padding: 10% 0 10% 0;
+  background: url(../assets/imgs/bg_default.png) no-repeat;
+  background-size: cover;
+  transform: skewY(-3deg);
+  position: relative;
+  z-index: 3;
+  border-top: var(--border-blue);
+}
+
+.normal {
+  transform: skewY(3deg);
+}
+
 .labels {
   font-size: 1.3em;
   text-align: left;
@@ -17,16 +31,18 @@
   background: #03243a;
 }
 
-.contato {
+.contato_form {
   margin: 10% 30% 0 30%;
   text-align: center;
   padding: 3%;
   border: 2px solid rgb(16, 1, 58);
   border-radius: 20px;
   background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(22, 10, 58), rgb(12, 38, 85));
-  background: url(../assets/imgs/bg_test.jpg);
+  background: url(../assets/imgs/bg_form.png);
   background-size: cover;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+  border: var(--border-blue);
 }
 
 input:invalid,
@@ -45,8 +61,10 @@ textarea:valid {
   border: var(--border-blue);
 }
 
-#email, #nome, #mensagem {
-margin-bottom: 40px;
+#email,
+#nome,
+#mensagem {
+  margin-bottom: 40px;
 }
 
 #email-invalido {
@@ -54,56 +72,56 @@ margin-bottom: 40px;
 }
 
 /* '' */
-input:invalid + .verifica::before,
-textarea:invalid + .verifica::before {
+input:invalid+.verifica::before,
+textarea:invalid+.verifica::before {
   content: '✖';
   color: red;
   /* margin-left: 15%; */
-  
+
 }
 
-input:valid + .verifica::before,
-textarea:valid + .verifica::before {
+input:valid+.verifica::before,
+textarea:valid+.verifica::before {
   content: '✓';
   color: rgb(0, 255, 0);
 }
 
-input + .verifica::before {
+input+.verifica::before {
   position: absolute;
   top: -70px;
   left: 260px;
 }
 
-textarea + .verifica::before {
+textarea+.verifica::before {
   position: absolute;
   top: -190px;
-    left: 260px;
+  left: 260px;
 }
 
 .verifica {
   position: absolute;
 }
 
-.contato button {
+.contato_form button {
   background: var(--bg-default);
   border: var(--border-blue);
   color: var(--text-cyan);
 }
 
-.contato button:hover {
+.contato_form button:hover {
   border: 0.1em solid white !important;
   color: black;
   background: var(--text-gradient);
 }
 
 @media (max-width: 900px) {
-  .contato {
+  .contato_form {
     margin: 10% 20% 20% 20%;
   }
 }
 
 @media (max-width: 600px) {
-  .contato {
+  .contato_form {
     margin: 10% 5% 30% 5%;
   }
 }
@@ -111,14 +129,14 @@ textarea + .verifica::before {
 
 @media (max-width: 1350px) {
   input+.verifica::before {
-      position: absolute;
-      left: 170px;
-    }
-  
-    textarea+.verifica::before {
-      position: absolute;
-      left: 170px;
-    }
+    position: absolute;
+    left: 170px;
+  }
+
+  textarea+.verifica::before {
+    position: absolute;
+    left: 170px;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -166,5 +184,29 @@ textarea + .verifica::before {
   textarea+.verifica::before {
     position: absolute;
     left: 170px;
+  }
+}
+
+@media (max-width: 450px) {
+  input+.verifica::before {
+    position: absolute;
+    left: 150px;
+  }
+
+  textarea+.verifica::before {
+    position: absolute;
+    left: 150px;
+  }
+}
+
+@media (max-width: 390px) {
+  input+.verifica::before {
+    position: absolute;
+    left: 120px;
+  }
+
+  textarea+.verifica::before {
+    position: absolute;
+    left: 120px;
   }
 }
