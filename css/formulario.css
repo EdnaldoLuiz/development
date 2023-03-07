@@ -2,7 +2,7 @@
 
 .contato {
   padding: 10% 0 10% 0;
-  background: url(../assets/imgs/bg_default.png) no-repeat;
+  background: url(../assets/imgs/bg_contato.png) no-repeat;
   background-size: cover;
   transform: skewY(-3deg);
   position: relative;
