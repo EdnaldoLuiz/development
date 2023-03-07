@@ -6,8 +6,6 @@
   transform: skewY(-3deg);
   background: black;
   z-index: 1;
-  background: url(/assets/imgs/bg.jpg) no-repeat;
-  background-size: cover;
 }
 
 .home {
@@ -62,7 +60,6 @@
 }
 
 #profile {
-  background-image: url(assets/imgs/profile_bg.png);
   border: 2px solid red;
 }
 
