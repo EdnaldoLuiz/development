@@ -18,6 +18,7 @@
 body {
   background: var(--bg-default);
   font-family: var(--font-base);
+  background: url(/assets/imgs/bg_test.jpg);
 }
 
 .gradient {
