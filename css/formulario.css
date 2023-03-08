@@ -14,11 +14,27 @@
   transform: skewY(3deg);
 }
 
+.form-title {
+  text-align: center;
+}
+
+.form-title h2 {
+  font-size: 3em;
+  color: var(--light-gray);
+  font-weight: 500;
+}
+
+.border-baixo {
+  border: 0.2em solid var(--text-cyan);
+  width: 25%;
+  margin: 0 auto;
+}
+
 .labels {
   font-size: 1.3em;
   text-align: left;
   display: block;
-  color: #fff;
+  color: rgb(206, 202, 202);
 }
 
 .form-control {
@@ -106,6 +122,8 @@ textarea+.verifica::before {
   background: var(--bg-default);
   border: var(--border-blue);
   color: var(--text-cyan);
+  font-size: 1.5em;
+  padding: 10px 15px;
 }
 
 .contato_form button:hover {

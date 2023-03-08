@@ -6,6 +6,7 @@
 
 :root {
   --font-base: "Bai Jamjuree";
+  --light-gray: rgb(206, 202, 202);
   --text-gradient: linear-gradient(to right, rgb(109, 49, 179), rgb(61, 116, 236), rgb(30, 202, 245));
   --border-blue: 0.1em solid rgb(8, 219, 247);
   --border-gd: 0.1em solid linear-gradient(to right, rgb(0, 0, 0), rgb(22, 10, 58), rgb(12, 38, 85));
