@@ -10,7 +10,10 @@
 
 .glow i img {
   width: 5%;
-  
+}
+
+.glow i img:hover {
+  transform: var(--size-up);
 }
 
 .glow:hover {

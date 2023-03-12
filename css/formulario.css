@@ -52,13 +52,15 @@
   margin: 5% 30% 0 30%;
   text-align: center;
   padding: 3%;
-  border: 2px solid rgb(16, 1, 58);
   border-radius: 20px;
-  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(22, 10, 58), rgb(12, 38, 85));
   background: url(../assets/imgs/bg_form.png);
   background-size: cover;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
+}
+
+.contato_form:hover {
+  transition: var(--transition-main);
   border: var(--border-blue);
 }
 
@@ -78,23 +80,40 @@ textarea:valid {
   border: var(--border-blue);
 }
 
-#email,
 #nome,
+#email,
 #mensagem {
   margin-bottom: 40px;
+  background: transparent;
+  color: #ffffff;
+}
+
+#nome:hover {
+  background: #ffffff;
+  transition: var(--transition-main);
+  background: #021522;
+}
+
+#email:hover {
+  background: #ffffff;
+  transition: var(--transition-main);
+  background: #021522;
+}
+
+#mensagem:hover {
+  background: #ffffff;
+  transition: var(--transition-main);
+  background: #021522;
 }
 
 #email-invalido {
   position: relative;
 }
 
-/* '' */
 input:invalid+.verifica::before,
 textarea:invalid+.verifica::before {
   content: '✖';
   color: red;
-  /* margin-left: 15%; */
-
 }
 
 input:valid+.verifica::before,
@@ -105,13 +124,13 @@ textarea:valid+.verifica::before {
 
 input+.verifica::before {
   position: absolute;
-  top: -70px;
+  top: -71px;
   left: 260px;
 }
 
 textarea+.verifica::before {
   position: absolute;
-  top: -190px;
+  top: -191px;
   left: 260px;
 }
 
@@ -131,6 +150,7 @@ textarea+.verifica::before {
   border: 0.1em solid white !important;
   color: black;
   background: var(--text-gradient);
+  transform: var(--size-up);
 }
 
 @media (max-width: 900px) {

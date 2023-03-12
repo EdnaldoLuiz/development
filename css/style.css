@@ -14,6 +14,7 @@
   --bg-default: #020013;
   --text-cyan: rgb(18, 164, 201);
   --transition-main: all .4s ease-in-out;
+  --size-up: scale(1.1);
 }
 
 body {
