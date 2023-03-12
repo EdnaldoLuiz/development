@@ -24,7 +24,7 @@
 
 <body>
   <!-- HEADER -->
-  <header>
+  <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top" id="nav-color">
       <div class="container-fluid">
         <img class="header__nav__img" src="assets/imgs/header_logo.png" alt="">
@@ -42,10 +42,13 @@
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contatome">Contato</a>
             </li>
             <li class="nav-item mt-3 mt-lg-0">
               <a class="btn-contratar">Contratar-me</a>
@@ -59,7 +62,7 @@
 
   <main>
 
-    <section class="container-fluid home-section">
+    <section class="container-fluid home-section" id="home">
       <section class="home normal">
         <div class="max-width">
           <div class="home-conteudo">
@@ -99,6 +102,15 @@
                 orientação a objetos, streams, biblioteca javax.swing e
                 o padrão Observer</p>
             </div>
+
+            <div class="card-body d-grid gap-3 tech-sec justify-content-left">
+              <ul>
+                <li>
+                  <i class="fab fa-java card-icon"></i>
+                </li>
+              </ul>
+            </div>
+
             <div class="card-footer footer-blue text-light">
               <div><a target="_blank" href="https://github.com/EdnaldoLuiz/campo-minado"><i
                     class="fab fa-github github-icon-size"></i></a></div>
@@ -112,11 +124,23 @@
 
         <div class="container">
           <div class="card"><img src="assets/imgs-projetos/projeto_helpup.png" class="card-img-top" alt="...">
+
             <div class="card-body d-grid gap-3">
               <h5 class="card-title text-center text-capitalize gradient title">HelpUp</h5>
-              <p class="card-text justify-content-left p-0 pb-3">Projeto em grupo voltado para a ODS 10 com foco em
-                acessibilidade, feito com Html, Css, Javascript e Bootstrap</p>
+              <p class="card-text justify-content-left p-0 pb-3">Projeto em grupo voltado para a ODS 10 com foco em acessibilidade, pensado para ajudar deficientes auditivos.</p>
             </div>
+
+            <div class="card-body d-grid gap-3 tech-sec justify-content-left">
+              <ul>
+                <li class="lista">
+                  <i class="fab fa-bootstrap card-icon"></i>
+                  <i class="fab fa-html5 card-icon"></i>
+                  <i class="fab fa-css3 card-icon"></i>
+                  <i class="fab fa-js card-icon"></i>
+                </li>
+              </ul>
+            </div>
+
             <div class="card-footer footer-blue text-light">
               <div><a target="_blank" href="https://github.com/EdnaldoLuiz/HELP_UP_PROJECT"></a><i
                   class="fab fa-github github-icon-size"></i></div>
@@ -133,7 +157,7 @@
 
     </section>
 
-    <section class="contato">
+    <section class="contato" id="contatome">
       <div class="normal">
         <div class="form-title">
           <h2 class="container-fluid">Mande um e-mail <i class="fas fa-envelope"></i></h2>

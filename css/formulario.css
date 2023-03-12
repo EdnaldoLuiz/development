@@ -56,19 +56,14 @@
   background: url(../assets/imgs/bg_form.png);
   background-size: cover;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-
-}
-
-.contato_form:hover {
-  transition: var(--transition-main);
   border: var(--border-blue);
 }
 
-input:invalid,
+/* input:invalid,
 textarea:invalid {
-  /* border: red;
-  box-shadow: 0 0 3px red; */
-}
+  border: red;
+  box-shadow: 0 0 3px red; 
+} */
 
 input:focus,
 textarea:focus {

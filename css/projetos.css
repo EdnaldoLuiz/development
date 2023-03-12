@@ -12,9 +12,7 @@
 }
 
 @media (max-width: 950px) {
-  .backend {
-
-  }
+  .backend {}
 }
 
 .title {
@@ -34,9 +32,6 @@
   padding: 2%;
 }
 
-
-  
-
 .card-footer {
   justify-content: space-around;
   text-align: center;
@@ -50,6 +45,57 @@
 
 .footer-blue div {
   width: 50%;
+}
+
+.tech-sec {
+  border-top: var(--border-blue);
+  position: relative;
+  display: flex;
+}
+
+.card-icon {
+  bottom: 9px;
+  margin: 0 22%;
+  
+}
+
+/* CAMPO MINADO */
+
+.fa-java {
+  position: absolute;
+  font-size: 30px;
+  left: 80px;
+  color: chocolate;
+}
+
+/* HELP UP */
+
+.fa-bootstrap {
+  position: absolute;
+  font-size: 30px;
+  left: 0;
+  color: blueviolet;
+}
+
+.fa-html5 {
+  position: absolute;
+  font-size: 30px;
+  left: 50px;
+  color: chocolate;
+}
+
+.fa-css3 {
+  position: absolute;
+  font-size: 30px;
+  left: 90px;
+  color: cornflowerblue;
+}
+
+.fa-js {
+  position: absolute;
+  font-size: 30px;
+  left: 140px;
+  color: yellow;
 }
 
 .card-footer div {

@@ -3,6 +3,40 @@
 .header__nav__img {
   width: 20%;
 }
+.header .navbar {
+  padding: 15px 0;
+  transition: var(--transition-main);
+}
+
+.header .nav-item .nav-link {
+  position: relative;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: var(--text-cyan);
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.header .nav-item .nav-link::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--text-cyan);
+  transition: 0.3s;
+  bottom: 0;
+}
+
+.header .nav-item .nav-link.active::after,
+.header .nav-item .nav-link:hover::after {
+  width: 100%;
+}
+
+.header .nav-item .nav-link.active,
+.header .nav-item .nav-link:hover {
+color: rgb(255, 255, 255);
+}
 
 #nav-icon {
   color: var(--text-cyan);
@@ -30,6 +64,7 @@
   border: 0.1em solid white;
   color: rgb(255, 255, 255);
   background: var(--text-gradient);
+  transform: var(--size-up);
 }
 
 #nav-color {
