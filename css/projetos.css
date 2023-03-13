@@ -69,16 +69,23 @@
 .card-icon {
   bottom: 9px;
   margin: 0 22%;
-  /* width: 33%; */
+
 }
 
 /* CAMPO MINADO */
 
-.fa-java {
+.lista-campo-minado .fa-java {
   position: absolute;
   font-size: 30px;
   left: 80px;
   color: chocolate;
+}
+
+.lista-campo-minado .fa-git-alt {
+  position: absolute;
+  font-size: 30px;
+  left: 130px;
+  color: rgb(255, 60, 0);
 }
 
 /* HELP UP */
@@ -86,29 +93,36 @@
 .lista-help-up .fa-bootstrap {
   position: absolute;
   font-size: 30px;
-  left: 0;
+  left: 6px;
   color: blueviolet;
 }
 
 .lista-help-up .fa-html5 {
   position: absolute;
   font-size: 30px;
-  left: 50px;
+  left: 56px;
   color: chocolate;
 }
 
 .lista-help-up .fa-css3 {
   position: absolute;
   font-size: 30px;
-  left: 90px;
+  left: 96px;
   color: cornflowerblue;
 }
 
 .lista-help-up .fa-js {
   position: absolute;
   font-size: 30px;
-  left: 140px;
+  left: 146px;
   color: yellow;
+}
+
+.lista-help-up .fa-git-alt {
+  position: absolute;
+  font-size: 30px;
+  left: 196px;
+  color: rgb(255, 60, 0);
 }
 
 .card-footer div {
