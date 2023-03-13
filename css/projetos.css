@@ -2,7 +2,16 @@
 
 .backend {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-bottom: 200px;
+}
+
+.full-cd {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 @media (max-width: 700px) {
@@ -11,17 +20,21 @@
   }
 }
 
-@media (max-width: 950px) {
-  .backend {}
-}
+/* @media (max-width: 600px) {
+ .card {
+  width: 330px;
+ }
+} */
 
 .title {
   font-weight: bold;
 }
 
+.full-cd {}
+
 .card {
   box-shadow: -1px 15px 30px -10px black;
-  width: 330px;
+  width: 430px;
   color: white;
   background: var(--bg-gradient-right);
   margin: 100px auto;
@@ -50,13 +63,13 @@
 .tech-sec {
   border-top: var(--border-blue);
   position: relative;
-  display: flex;
+
 }
 
 .card-icon {
   bottom: 9px;
   margin: 0 22%;
-  
+  /* width: 33%; */
 }
 
 /* CAMPO MINADO */
@@ -70,28 +83,28 @@
 
 /* HELP UP */
 
-.fa-bootstrap {
+.lista-help-up .fa-bootstrap {
   position: absolute;
   font-size: 30px;
   left: 0;
   color: blueviolet;
 }
 
-.fa-html5 {
+.lista-help-up .fa-html5 {
   position: absolute;
   font-size: 30px;
   left: 50px;
   color: chocolate;
 }
 
-.fa-css3 {
+.lista-help-up .fa-css3 {
   position: absolute;
   font-size: 30px;
   left: 90px;
   color: cornflowerblue;
 }
 
-.fa-js {
+.lista-help-up .fa-js {
   position: absolute;
   font-size: 30px;
   left: 140px;
@@ -99,12 +112,12 @@
 }
 
 .card-footer div {
-  flex-grow: 1 !important;
+  /* flex-grow: 1 !important; */
   border-right: var(--border-blue);
   border-top: var(--border-blue);
   padding: 10px 0;
 }
 
 .card-footer div:last-child {
-  border-right: none;
+  border-right: unset;
 }

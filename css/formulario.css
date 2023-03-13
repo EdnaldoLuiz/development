@@ -81,6 +81,7 @@ textarea:valid {
   margin-bottom: 40px;
   background: transparent;
   color: #ffffff;
+  transition: var(--transition-main);
 }
 
 #nome:hover {
