@@ -23,6 +23,10 @@
   .backend {
     display: block;
   }
+
+  .card {
+    max-width: 400px;
+  }
 }
 
 /* @media (max-width: 600px) {
@@ -34,8 +38,6 @@
 .title {
   font-weight: bold;
 }
-
-.full-cd {}
 
 .card {
   box-shadow: -1px 15px 30px -10px black;
@@ -99,8 +101,9 @@
   position: absolute;
   font-size: 80px;
   color: rgb(212, 203, 203, 0.8);
-  left: 175px;
-  top: 110px;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
 }
 
 .w:hover {
