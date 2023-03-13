@@ -7,6 +7,11 @@
   margin-bottom: 200px;
 }
 
+.projetos-title h1 {
+  position: absolute;
+  background: wheat;
+}
+
 .full-cd {
   display: flex;
   flex-direction: row;
@@ -77,51 +82,63 @@
 .lista-campo-minado .fa-java {
   position: absolute;
   font-size: 30px;
-  left: 80px;
+  left: -70px;
   color: chocolate;
 }
 
 .lista-campo-minado .fa-git-alt {
   position: absolute;
   font-size: 30px;
-  left: 130px;
+  left: -25px;
   color: rgb(255, 60, 0);
 }
 
 /* HELP UP */
 
+.w {
+  position: absolute;
+  font-size: 80px;
+  color: rgb(212, 203, 203, 0.8);
+  left: 175px;
+  top: 110px;
+}
+
+.w:hover {
+  color: transparent;
+}
+
 .lista-help-up .fa-bootstrap {
   position: absolute;
   font-size: 30px;
-  left: 6px;
+  left: -70px;
   color: blueviolet;
 }
 
 .lista-help-up .fa-html5 {
   position: absolute;
   font-size: 30px;
-  left: 56px;
+  left: -20px;
   color: chocolate;
 }
 
 .lista-help-up .fa-css3 {
   position: absolute;
   font-size: 30px;
-  left: 96px;
+  left: 20px;
   color: cornflowerblue;
 }
 
 .lista-help-up .fa-js {
   position: absolute;
   font-size: 30px;
-  left: 146px;
+  left: 70px;
   color: yellow;
 }
 
 .lista-help-up .fa-git-alt {
   position: absolute;
   font-size: 30px;
-  left: 196px;
+  left: 115px;
   color: rgb(255, 60, 0);
 }
 
